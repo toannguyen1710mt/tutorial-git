@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <tutorial title="welcome to my git"></tutorial>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Tutorial from './components/Tutorial'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Tutorial
   }
 }
 </script>
